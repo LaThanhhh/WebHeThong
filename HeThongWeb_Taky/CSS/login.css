@@ -1,0 +1,516 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../Fonts/Ubuntu-Bold.woff2') format('woff2'),
+        url('../Fonts/Ubuntu-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../Fonts/Ubuntu-Italic.woff2') format('woff2'),
+        url('../Fonts/Ubuntu-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../Fonts/Ubuntu-Light.woff2') format('woff2'),
+        url('../Fonts/Ubuntu-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../Fonts/Ubuntu-Medium.woff2') format('woff2'),
+        url('../Fonts/Ubuntu-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../Fonts/Ubuntu-Regular.woff2') format('woff2'),
+        url('../Fonts/Ubuntu-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../Fonts/Quicksand-Bold.woff2') format('woff2'),
+        url('../Fonts/Quicksand-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../Fonts/Quicksand-Medium.woff2') format('woff2'),
+        url('../Fonts/Quicksand-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../Fonts/Quicksand-Regular.woff2') format('woff2'),
+        url('../Fonts/Quicksand-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../Fonts/Quicksand-Light.woff2') format('woff2'),
+        url('../Fonts/Quicksand-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../Fonts/Quicksand-SemiBold.woff2') format('woff2'),
+        url('../Fonts/Quicksand-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../Fonts/Pacifico-Regular.woff2') format('woff2'),
+        url('../Fonts/Pacifico-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('../Fonts/DancingScript-Bold.woff2') format('woff2'),
+        url('../Fonts/DancingScript-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('../Fonts/DancingScript-SemiBold.woff2') format('woff2'),
+        url('../Fonts/DancingScript-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('../Fonts/DancingScript-Regular.woff2') format('woff2'),
+        url('../Fonts/DancingScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('../Fonts/DancingScript-Medium.woff2') format('woff2'),
+        url('../Fonts/DancingScript-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('../Fonts/GreatVibes-Regular.woff2') format('woff2'),
+        url('../Fonts/GreatVibes-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shadows Into';
+    src: url('../Fonts/ShadowsIntoLight.woff2') format('woff2'),
+        url('../Fonts/ShadowsIntoLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+body{
+    background: url('../images/Back3.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+body{
+    font-family: 'Ubuntu';
+}
+body#loginBody{
+    background: url('../Images/Back3.jpg');
+    background-size: cover;
+}
+div.loginHeader{
+    text-align: center;
+    margin-bottom: 45px;
+}
+div.loginHeader h1{
+    font-size: 60px;
+    color: #F2B61C;
+    padding: 0px;
+    margin: 0px;
+}
+div.loginHeader p{
+    color: #ffffff;
+    font-size: 45px;
+    border-bottom: 2px solid #F2B61C;
+    margin: 0px; 
+    text-transform: uppercase;
+    display: inline-block;
+}
+div.loginHeader p:after{
+    content:'';
+    display: block;
+    height: 5px;
+    background: #F2B61C;
+    margin: 0 auto;
+}
+
+div.loginBody form{
+    margin: 0 auto;
+    width: 450px;
+    background: rgba(0,0,0,.5);
+    padding: 40px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
+div.loginInputsContainer{
+    margin-top: 12px;
+}
+
+div.loginInputsContainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+div.loginInputsContainer input{
+    height: 40px;
+    width: 100%;
+    border: 3px solid #F2B61C;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+div.loginButtonContainer{
+    margin-top: 40px;
+    text-align: center;
+}
+
+div.loginButtonContainer button{
+    font-size: 20px;
+    padding: 10px 40px;
+    background: #F2B61C;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+div.header{
+    width: 100%;
+    background: #F2B61C;
+    padding: 10px 0px;
+    text-align: right;
+}
+div.header a{
+    font-family: 'Great Vibes';
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #fff;
+}
+div.header a:hover{
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+div.banner{
+    background: url('../images/back1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+div.homepageContainer{
+    width: 100%;
+    max-width: 1000px;
+    /* height: 70vh; */
+    margin: 0 auto;
+}
+div.bannerHeader h1{
+    font-family: 'Shadows Into';
+    font-size: 100px;
+    color: #fff;
+    line-height: 100%;
+}
+div.bannerHeader p{
+    font-family: 'Quicksand';
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+p.bannerTagline{
+    font-family: 'Dancing Script';
+    margin-top: 20px;
+    font-size: 22px;
+    color: #fff;
+}
+div.bannerIcons{
+    margin-top: 150px;
+}
+div.bannerIcons a{
+    font-size: 25px;
+    margin-left: 40px;
+    padding: 7px 15px;
+    background: rgba(0,0,0,0.5);
+    color:#ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+div.bannerIcons a:first-child{
+    margin-left: 0px;
+}
+div.bannerIcons a:hover{
+    color: #fff;
+    font-size: 25px;
+    background: #F2B61C;
+    transition: .5s all;
+}
+div.homepageFeatures{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0px;
+}
+div.homepageFeature{
+    padding: 10px 20px;
+    text-align: center;
+    width: 33.33%;
+}
+div.homepageFeature:hover{
+    border-top: 2px solid #F2B61C;
+    border-bottom: 2px solid #F2B61C;
+    transition: 0.5s all;
+}
+div.homepageFeature span.featureIcon{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    font-size: 50px;
+    background: #F2B61C;
+    color: #fff;
+    padding-top: 5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+div.homepageFeature h3.featureTitle{
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+div.homepageFeature p.featureDescription{
+    color: #848484;
+    font-size: 18px;
+}
+div.homepageNotified{
+    background: #e3e3e3;
+    padding: 80px 0px;
+}
+div.homepageNotifiedContainer{
+    display: flex;
+    flex-direction: row;
+}
+div.emailForm h3{
+    font-size: 25px;
+}
+div.emailForm{
+    width: 40%;
+}
+div.video{
+    width: 60%;
+    text-align: center;
+}
+div.homepageNotified h3{
+    margin-bottom: 20px;
+}
+div.homepageNotified p{
+    color: #848484;
+    line-height: 200%;
+    margin-bottom: 30px;
+}
+div.formContainer{
+    width: 80%;
+    position: relative;
+}
+div.formContainer input{
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 15px;
+    border: none;
+}
+div.formContainer input:focus{
+    outline: none;
+}
+div.formContainer button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    font-size: 22px;
+    padding: 0px 10px;
+    background: #F2B61C;
+    border: none;
+    color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+iframe{
+    width: 80%;
+    height: 100%;
+}
+
+div.socials{
+    text-align: center;
+    padding: 60px 0 30px 0;
+}
+h3.socialHeader{
+    font-size: 30px;
+}
+p.socialText{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+div.socialIconsContainer a{
+    font-size: 23px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding-top: 9px;
+    background: #d4d4d4;
+    border-radius: 50%;
+    color: #fff;
+    margin-left: 20px;
+}
+div.socialIconsContainer a:hover{
+    background: #F2B61C;
+    transition: 0.3s all;
+}
+div.footer{
+    background: #e3e3e3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+div.footer a{
+    color: #848484;
+    margin-left: 30px;
+    text-decoration: none;
+}
+div.footer a:hover{
+    font-weight: bold;
+    color: #F2B61C;
+    transition: 0.5s all;
+}
+div#errorMessage{
+    background: #fff;
+    text-align: center;
+    color: #F2B61C;
+    font-size: 20px;
+    padding: 10px;
+}
+.alignRight{
+    text-align: right;
+}
+
+
+.poList{
+   margin-bottom: 25px;
+    padding: 5px;
+    border-bottom: solid 1px #d1d1d1;
+    border-radius:5px ;
+    background: #fbfbfb;
+}
+.poList p{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fdb603;
+    font-size: 15px;
+}
+.poList table td, .poList table th{
+    border: none;
+    border-bottom: 1px dotted #b7b7bb;
+    text-align: center;
+}
+.poList table th{
+    padding: 15px 10px ;
+}
+.poList table td
+{
+    padding: 13px 14px ;
+}
+.poList table{
+    border: none;
+}
+.poCapNhatDonHangBtnContainer{
+    margin-top: 15px;
+}
+.capnhatPoBtn{
+    background: #fff;
+    color: #F2B61C;
+    font-size: 15px;
+    border:  1px solid #F2B61C;
+
+}
+.capnhatPoBtn:hover{
+    background: #F2B61C;
+    color: #fff;
+}
+
+.po-badge-pending{
+    background: #fffafa;
+    border-color:#df1e13 ;
+    padding: 4px 6px;
+    border: 1px solid ;
+}
+.po-badge-complete{
+    background: #b5ebb5;
+    border-color:green ;
+    padding: 4px 6px;
+    border: 1px solid ;
+
+}
+    

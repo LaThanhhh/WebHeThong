@@ -1,0 +1,459 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../Fonts/Ubuntu-Bold.woff2') format('woff2'),
+      url('../Fonts/Ubuntu-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../Fonts/Ubuntu-Italic.woff2') format('woff2'),
+      url('../Fonts/Ubuntu-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../Fonts/Ubuntu-Light.woff2') format('woff2'),
+      url('../Fonts/Ubuntu-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../Fonts/Ubuntu-Medium.woff2') format('woff2'),
+      url('../Fonts/Ubuntu-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../Fonts/Ubuntu-Regular.woff2') format('woff2'),
+      url('../Fonts/Ubuntu-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../Fonts/Quicksand-Bold.woff2') format('woff2'),
+      url('../Fonts/Quicksand-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../Fonts/Quicksand-Medium.woff2') format('woff2'),
+      url('../Fonts/Quicksand-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../Fonts/Quicksand-Regular.woff2') format('woff2'),
+      url('../Fonts/Quicksand-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../Fonts/Quicksand-Light.woff2') format('woff2'),
+      url('../Fonts/Quicksand-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../Fonts/Quicksand-SemiBold.woff2') format('woff2'),
+      url('../Fonts/Quicksand-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../Fonts/Pacifico-Regular.woff2') format('woff2'),
+      url('../Fonts/Pacifico-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('../Fonts/DancingScript-Bold.woff2') format('woff2'),
+      url('../Fonts/DancingScript-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('../Fonts/DancingScript-SemiBold.woff2') format('woff2'),
+      url('../Fonts/DancingScript-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('../Fonts/DancingScript-Regular.woff2') format('woff2'),
+      url('../Fonts/DancingScript-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('../Fonts/DancingScript-Medium.woff2') format('woff2'),
+      url('../Fonts/DancingScript-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Great Vibes';
+  src: url('../Fonts/GreatVibes-Regular.woff2') format('woff2'),
+      url('../Fonts/GreatVibes-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Shadows Into';
+  src: url('../Fonts/ShadowsIntoLight.woff2') format('woff2'),
+      url('../Fonts/ShadowsIntoLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*Reset CSS*/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/*End Reset CSS*/
+/*===========================================================================*/
+#dashboardMainContainer{
+    display: flex;
+    flex-direction: row;
+}
+div.dashboard_sidebar{
+    width: 20%;
+    background: #F2B61C;
+    height: 100vh;
+}
+div.dashboard_content_container{
+    width: 80%;
+    background: #f4f6f9;
+}
+h3.dashboard_logo{
+    font-family: "Shadows Into";
+    color: #FFF;
+    font-size: 50px;
+    text-align: center;
+}
+div.dashboard_sidebar_user{
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+div.dashboard_sidebar_user img{
+    width: 70px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+div.dashboard_sidebar_user span{
+    font-family: "Dancing Script";
+    top: 20%;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+
+}
+ul.dashboard_menu_lists{
+    margin-top: 20px;
+}
+ul.dashboard_menu_lists li{
+    padding: 15px 15px;
+    text-transform: uppercase;
+}
+ul.dashboard_menu_lists li a{
+    font-family: "Quicksand";
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    height: 100%;
+    display: block;
+}
+ul.dashboard_menu_lists li a .menuText{
+  text-align: left;
+}
+ul.dashboard_menu_lists li.menuActive{
+    background: #f4f6f9;
+}
+
+ul.dashboard_menu_lists li:hover{
+    background: #f4f6f9;
+    transition: 0.3s all;
+}
+div.dashboard_topNav{
+  background: #fff;
+  padding: 20px;
+}
+div.dashboard_topNav a{
+  color: rgb(78, 77, 77);
+  font-size: 22px;
+  text-decoration: none;
+}
+a#logoutBtn{
+  float: right;
+}
+div.dashboard_content{
+  padding: 30px 10px 10px 10px;
+}
+div.dashboard_content_main{
+  background: #fff;
+  min-height: 615px;
+  height: 100%;
+}
+
+div#errorMessage{
+  background: #fff;
+  text-align: center;
+  color: #F2B61C;
+  font-size: 20px;
+  padding: 10px;
+}
+form::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+form.appForm{
+  width: 90%;
+  border: 1px solid #cecfd0;
+  border-radius: 5px;
+  background: #f4f6f9;
+  padding: 0 20px;
+}
+form label{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+form input.appFormInput{
+  width: 100%;
+  height: 30px;
+  border: 1px solid #d6d7da;
+  border-radius: 5px;
+}
+div.appFormInputContainer{
+  margin-bottom: 10px;
+}
+div#userAddFormContainer{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+button.appBtn{
+  background: #F2B61C;
+  border: 1px solid #F2B61C;
+  color: #fff;
+  padding: 5px;
+  margin-top: 10px;
+  float: right;
+}
+p.responseMessage{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+p.responseMessage_error{
+  background: #ff4848;
+}
+p.responseMessage_success{
+  background: #49c37a;
+}
+
+/*User add page*/
+div.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+div.column{
+  width: 100%;
+  padding: 0 10px;
+}
+div.column-5{
+  width: 90%;
+}
+div.column-7{
+  width: 90%;
+}
+
+
+h2.section_header{
+  font-size: 20px;
+  color: #F2B61C;
+  border-bottom: 1px solid #F2B61C;
+  padding-bottom: 10px;
+  padding: 10px;
+  border-left: 4px solid #F2B61C;
+  margin-bottom: 15px;
+}
+
+table, th, td{
+  border: 1px solid #cacaca;
+  border-collapse: collapse;
+}
+table{
+  width: 100%;
+}
+table th{
+  font-size: 15px;
+  text-align: center;
+  background: #f4f6f9;
+}
+table td{
+  font-size: 13px;
+  font-weight: 300;
+}
+
+a.subMenuLink{
+  padding-left: 25px !important;
+  padding-bottom: 10px !important;
+  text-transform: none;
+  font-size: 15px !important;
+}
+
+a.subMenuLink li{
+  font-size: 16px !important;
+  width: 16px !important;
+}
+
+ul.subMenus{
+  background: #F2B61C;
+  display: none;
+}
+
+li.mainMenuIconArrow{
+  float: right;
+  font-size: 19px !important;
+  margin-top: 7px;
+}
+
+ul.subMenuActive{
+  font-weight: bold;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  background: #F2B61C;
+}
+
+
+
+
